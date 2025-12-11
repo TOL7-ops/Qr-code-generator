@@ -56,17 +56,15 @@ body {
   justify-content: center;
   margin-bottom: 20px;
   padding: 10px;
+  display: none;
 }
 
-#imgBox img {
-  width: 180px;
-  height: 180px;
-  object-fit: contain;
-}
+/*  */
 
 #imgBox.show-img {
   /* border: 1px solid #ddd; */
   border-radius: 10px;
+  display: block;
   /* background-color: #ddd; */
 }
 
